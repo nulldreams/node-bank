@@ -35,7 +35,7 @@
     - **nodebank.bills.all**: return and array of your invoices
     - **nodebank.bills.findByDate**: return an bill by **due date**
     - **nodebank.bills.info**: return all info of a bill
-    - **nodebank.bills.barco**: return an object with number of "boleto"s bill
+    - **nodebank.bills.barcode**: return an object with number of "boleto"s bill
     - **nodebank.bills.emailBill**: comming soon
 
 ## Examples
