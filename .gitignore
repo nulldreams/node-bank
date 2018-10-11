@@ -1,0 +1,9 @@
+# dev tests
+lib/mock
+teste.js
+lib/src/tesss.json
+config
+dev.js
+
+# git
+node_modules
