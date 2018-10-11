@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/nulldreams/node-bank/master/box.png" alt="Size Limit example"
-       width="20%" height="20%">
+  <img src="https://i.imgur.com/9NjrFZO.png" alt="Size Limit example"
+       width="40%" height="40%">
 </p>
 <h4 align="center">A <a href="https://www.nubank.com.br/" target="_blank">Nubank</a> API in NodeJS</h4>
 <p align="center">
