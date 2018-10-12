@@ -92,18 +92,18 @@ let bills = await nubank.bills.all()
 await nubank.start()
 await nubank.login({ cpf: '__cpf', pass: '__password' }) 
     
-let bills = await nubank.bills.all()
+let arrBills = await nubank.bills.all()
     
-let [bill] = await nubank.bills.findByDate({ date: '2018-11-11', bills })
+let [bill] = await nubank.bills.findByDate({ date: '2018-11-11', bills: arrBills.bills })
 ```
 `nodebank.bills.info`
 ```javascript
 await nubank.start()
 await nubank.login({ cpf: '__cpf', pass: '__password' }) 
     
-let bills = await nubank.bills.all()
+let arrBills = await nubank.bills.all()
     
-let [bill] = await nubank.bills.findByDate({ date: '2018-11-11', bills })
+let [bill] = await nubank.bills.findByDate({ date: '2018-11-11', bills: arrBills.bills })
 
 let info = await nubank.bills.info({ bill })
 ```
@@ -112,9 +112,9 @@ let info = await nubank.bills.info({ bill })
 await nubank.start()
 await nubank.login({ cpf: '__cpf', pass: '__password' }) 
 
-let bills = await nubank.bills.all()
+let arrBills = await nubank.bills.all()
 
-let [bill] = await nubank.bills.findByDate({ date: '2018-11-11', bills })
+let [bill] = await nubank.bills.findByDate({ date: '2018-11-11', bills: arrBills.bills })
 
 let info = await nubank.bills.info({ bill })
 
