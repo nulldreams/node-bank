@@ -126,6 +126,7 @@ let barcode = await nubank.bills.barcode({ info: info.bill })
 
 This software uses some open source packages.
 
+- [Nubank](https://www.nubank.com.br/)
 - [Node.js](https://nodejs.org/)
 - [Fastify](https://github.com/fastify/fastify)
 - [Request](https://github.com/request/request)
