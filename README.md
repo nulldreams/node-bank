@@ -26,6 +26,9 @@
 
 ***
 
+## Install
+`npm install node-bank`
+
 ## Methods
  - **nodebank.start**: start the library
  - **nodebank.login(cpf, password)**: login into nubank API
@@ -42,9 +45,6 @@
     - **nodebank.bills.info**: return all info of a bill
     - **nodebank.bills.barcode**: return an object with number of "boleto"s bill
     - **nodebank.bills.emailBill**: comming soon
-
-## Install
-`npm install node-bank`
 
 ## Examples
 ### First of all
