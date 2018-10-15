@@ -18,8 +18,16 @@
       <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square">
   </a>
 </p>
+<p align="center">
+ <a href="https://nodei.co/npm/node-bank/">
+  <img src="https://nodei.co/npm/node-bank.png?downloads=true&downloadRank=true&stars=true" alt="Size Limit example">
+ </a>
+</p>
 
 ***
+
+## Install
+`npm install node-bank`
 
 ## Methods
  - **nodebank.start**: start the library
@@ -124,9 +132,10 @@ let barcode = await nubank.bills.barcode({ info: info.bill })
 
 ## Credits
 
+- [Nubank](https://www.nubank.com.br/)
+
 This software uses some open source packages.
 
-- [Nubank](https://www.nubank.com.br/)
 - [Node.js](https://nodejs.org/)
 - [Fastify](https://github.com/fastify/fastify)
 - [Request](https://github.com/request/request)
