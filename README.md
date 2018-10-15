@@ -38,6 +38,9 @@
     - **nodebank.bills.barcode**: return an object with number of "boleto"s bill
     - **nodebank.bills.emailBill**: comming soon
 
+## Install
+`npm install node-bank`
+
 ## Examples
 ### First of all
 `nodebank.start`
