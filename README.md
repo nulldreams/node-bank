@@ -18,6 +18,11 @@
       <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square">
   </a>
 </p>
+<p align="center">
+ <a href="https://nodei.co/npm/node-bank/">
+  <img src="https://nodei.co/npm/node-bank.png?downloads=true&downloadRank=true&stars=true" alt="Size Limit example">
+ </a>
+</p>
 
 ***
 
