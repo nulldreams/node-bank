@@ -26,6 +26,9 @@
 
 ***
 
+# Important
+Nubank has change the auth flow, now you need to validate a QRCode to have access in all API routes. I'm working on a new version that has QRCode validation, so this actually version doesn't work anymore.
+
 ## Install
 `npm install node-bank`
 
